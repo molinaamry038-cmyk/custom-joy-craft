@@ -45,6 +45,12 @@ export const Route = createRootRoute({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "RideAccess — Accessible Transportation You Can Count On" },
+      { name: "description", content: "Builds custom, accessible websites with features like booking forms, preference settings, and dynamic content." },
+      { property: "og:description", content: "Builds custom, accessible websites with features like booking forms, preference settings, and dynamic content." },
+      { name: "twitter:description", content: "Builds custom, accessible websites with features like booking forms, preference settings, and dynamic content." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a9c0c54b-0573-49cb-b6cc-aa5f0c737231/id-preview-b56a50d9--ffd2e503-d0d8-4134-8ad8-c1b0af009f6e.lovable.app-1776989428061.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a9c0c54b-0573-49cb-b6cc-aa5f0c737231/id-preview-b56a50d9--ffd2e503-d0d8-4134-8ad8-c1b0af009f6e.lovable.app-1776989428061.png" },
     ],
     links: [
       {
