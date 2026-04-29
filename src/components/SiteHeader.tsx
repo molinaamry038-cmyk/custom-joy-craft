@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Bus } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const navItems = [
   { to: "/", label: "Home" },
@@ -13,9 +13,11 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 w-full border-b border-border bg-background/90 backdrop-blur supports-[backdrop-filter]:bg-background/75">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-6 px-5 py-4">
         <Link to="/" className="flex items-center gap-2.5 text-lg font-semibold text-foreground">
-          <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-soft">
-            <Bus className="h-5 w-5" aria-hidden />
-          </span>
+          <img
+            src={logo}
+            alt="RideAccess logo: accessible van with wheelchair user"
+            className="h-10 w-10 rounded-xl object-cover shadow-soft"
+          />
           <span>RideAccess</span>
         </Link>
         <nav aria-label="Primary" className="flex items-center gap-1 sm:gap-2">
